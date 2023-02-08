@@ -219,8 +219,7 @@ body {
 }
 
 .home-slide-image {
-  -webkit-animation: slide 28s infinite;
-          animation: slide 28s infinite;
+  animation: slide 28s infinite;
   width: 100%;
   opacity: 0;
   position: absolute;
@@ -232,30 +231,15 @@ body {
 }
 
 .home-photos > .home-slide-image:nth-child(2) {
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  animation-delay: 7s;
 }
 
 .home-photos > .home-slide-image:nth-child(3) {
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
+  animation-delay: 14s;
 }
 
 .home-photos > .home-slide-image:nth-child(4) {
-  -webkit-animation-delay: 21s;
-          animation-delay: 21s;
-}
-
-@-webkit-keyframes slide {
-  10% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 1;
-  }
-  30% {
-    opacity: 0;
-  }
+  animation-delay: 21s;
 }
 
 @keyframes slide {
@@ -612,7 +596,7 @@ h2 {
     flex-direction: column;
   }
   .part-cards, .part-cards-screw, .part-cards-plate .part-cards-rasp,
-.part-cards-graft, .part-cards-sheath {
+  .part-cards-graft, .part-cards-sheath {
     text-align: center;
     justify-content: space-between;
     flex-direction: column;
@@ -830,6 +814,21 @@ h2 {
     width: 95%;
   }
 }
+/*/////////////////// Career Page /////////////////*/
+.job-header {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.job-posting {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
 /*/////////////////// Contact Page /////////////////*/
 .contact {
   position: relative;
@@ -973,13 +972,13 @@ ul.bandj-family {
 }
 
 .specialty img {
-  width: 250px;
-  height: 175px;
+  width: 225px;
+  height: 100px;
 }
 
 .international img {
-  width: 350px;
-  height: 150px;
+  width: 250px;
+  height: 100px;
   bottom: 0;
 }
 
