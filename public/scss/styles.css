@@ -477,7 +477,7 @@ body {
   border-bottom-right-radius: 15px;
   top: 5%;
   position: relative;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(160, 160, 160);
   margin: 100px auto;
   width: 100%;
   max-width: 70%;
@@ -648,6 +648,13 @@ h2 {
   font-family: sans-serif;
 }
 
+.machine-info {
+  margin: 0 auto;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
 .list-photo-container {
   margin: 0 auto;
   text-align: center;
@@ -666,6 +673,7 @@ h2 {
   text-align: center;
   justify-items: center;
   font-size: 25px;
+  font-family: sans-serif;
   list-style: none;
 }
 
