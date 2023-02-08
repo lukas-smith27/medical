@@ -327,11 +327,7 @@ body {
   color: rgb(255, 255, 255);
   font-family: sans-serif;
 }
-.history {
-  margin-left: 0;
-  margin-right: 0;
-  justify-content: center;
-}
+
 .content-box {
   display: flex;
   flex-direction: column;
@@ -348,13 +344,16 @@ body {
   padding-right: 10px;
   padding-left: 10px;
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
 }
+
 .content-box #jw-quote {
   padding-right: 10px;
   padding-left: 10px;
   color: rgb(255, 255, 255);
   font-size: 25px;
+  font-family: sans-serif;
 }
 /*/////////////////// Team Page /////////////////*/
 #teamHeader {
