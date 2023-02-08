@@ -1,6 +1,15 @@
 $(document).ready(function(){
     $(window).load("http://127.0.0.1:5500/public/home.html")
 
+    history.pushState({page: 1}, "http://127.0.0.1:5500/public/home.html")
+    history.pushState({page: 2}, "http://127.0.0.1:5500/public/history.html")
+    history.pushState({page: 3}, "http://127.0.0.1:5500/public/team.html")
+    history.pushState({page: 4}, "http://127.0.0.1:5500/public/products.html")
+    history.pushState({page: 5}, "http://127.0.0.1:5500/public/machines.html")
+    history.pushState({page: 6}, "http://127.0.0.1:5500/public/careers.html")
+    history.pushState({page: 7}, "http://127.0.0.1:5500/public/quote.html")
+    history.pushState({page: 8}, "http://127.0.0.1:5500/public/contact.html")
+
     $(".logo-home").click(function(){
         url = "http://127.0.0.1:5500/public/home.html"
         window.location.replace(url)
