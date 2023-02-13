@@ -1092,4 +1092,8 @@ ul.bandj-family {
   background-color: rgb(40, 40, 40);
   opacity: 1;
   justify-content: center;
+}
+
+#facebookLogo:hover, #linkedinLogo:hover {
+  background-color: rgb(181, 9, 15);
 }/*# sourceMappingURL=styles.css.map */
