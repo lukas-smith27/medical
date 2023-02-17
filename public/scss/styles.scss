@@ -179,7 +179,7 @@ body {
   text-align: center;
   border-radius: 20px;
   z-index: 1;
-  background-color: rgb(100, 100, 100, .9);
+  background-color: rgb(100, 100, 100, .35);
   overflow: hidden;
   padding-bottom: 15px;
 }
@@ -371,7 +371,7 @@ body {
   text-align: center;
   border-radius: 20px;
   z-index: 1;
-  background-color: rgb(100, 100, 100, .9);
+  background-color: rgb(100, 100, 100, .35);
 }
 
 .content-box p {
@@ -388,7 +388,7 @@ body {
 .content-box #jw-quote {
   padding-right: 10px;
   padding-left: 10px;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-family: sans-serif;
   text-align: center;
@@ -693,8 +693,8 @@ body {
 }
 
 .machine-list ul {
-  padding-left: 5%;
-  text-align: center;
+  padding-left: 10%;
+  text-align: left;
   justify-items: center;
   font-size: 25px;
   font-family: sans-serif;
@@ -703,6 +703,7 @@ body {
 
 .machine-list ul li {
   font-size: 20px;
+  padding-bottom: 5px;
   color: rgb(255, 255, 255);
   font-family: sans-serif;
   text-decoration: none;
@@ -711,7 +712,7 @@ body {
 .machine-photos {
   justify-content: center;
   float: left;
-  width: 48%;
+  width: 49%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -724,8 +725,13 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
   padding: 10px;
+}
+
+.machine-photos img:hover {
+  transform: scale(1.75);
+  transition: .5s;
 }
 
 .list-photo-container {
@@ -893,6 +899,7 @@ body {
 
 .contact-page-address {
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .contact-page-address p {
@@ -918,7 +925,7 @@ body {
 
 .office-numbers p {
   text-align: center;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .office-hours {
@@ -933,6 +940,7 @@ body {
 
 .office-hours p {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 
