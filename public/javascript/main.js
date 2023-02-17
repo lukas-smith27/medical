@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(window).load("http://127.0.0.1:5500/public/home.html")
+    $(window).load("../public/home.html")
 
     history.pushState({page: 1}, "http://127.0.0.1:5500/public/home.html")
     history.pushState({page: 2}, "http://127.0.0.1:5500/public/history.html")
@@ -11,48 +11,49 @@ $(document).ready(function(){
     history.pushState({page: 8}, "http://127.0.0.1:5500/public/contact.html")
 
     $(".logo-home").click(function(){
-        url = "http://127.0.0.1:5500/public/home.html"
+        url = "../public/home.html"
         window.location.replace(url)
     })
 
     $(".homeTop").click(function(){
-        url = "http://127.0.0.1:5500/public/home.html"
+        url = "../public/home.html"
         window.location.replace(url)
     })
 
     $(".historyTop").click(function(){
-        url = "http://127.0.0.1:5500/public/history.html"
+        url = "../public/history.html"
         window.location.replace(url)
-        $(".history").show().scrollTop()
+        $(window).load(function() {
+        })
     })
 
     $(".teamTop").click(function(){
-        url = "http://127.0.0.1:5500/public/team.html"
+        url = "../public/team.html"
         window.location.replace(url)
     })
 
     $(".productsTop").click(function(){
-        url = "http://127.0.0.1:5500/public/products.html"
+        url = "../public/products.html"
         window.location.replace(url)
     })
 
     $(".machinesTop").click(function(){
-        url = "http://127.0.0.1:5500/public/machines.html"
+        url = "../public/machines.html"
         window.location.replace(url)
     })
 
     $(".careersTop").click(function(){
-        url = "http://127.0.0.1:5500/public/careers.html"
+        url = "../public/careers.html"
         window.location.replace(url)
     })
 
     $(".quoteTop").click(function(){
-        url = "http://127.0.0.1:5500/public/quote.html"
+        url = "../public/quote.html"
         window.location.replace(url)
     })
 
     $(".contactTop").click(function(){
-        url = "http://127.0.0.1:5500/public/contact.html"
+        url = "../public/contact.html"
         window.location.replace(url)
     })
 
