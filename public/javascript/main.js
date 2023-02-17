@@ -131,31 +131,6 @@ $(document).ready(function(){
         $(".close-button").removeClass("active")
     })
 
-
-    //Email form for quote requests
-
-    $(".form-submit").click(function(){
-        console.log({
-            To : "ssizemore@bjmedicalinc.com",
-            From : $(".email").val(),
-            Subject : "Quote Request",
-            Body : "Name: " + $(".contact-name").val()
-                + "<br>Email: " + $(".email").val()
-                + "<br>Phone: " + $(".phone").val()
-                + "<br>Fax: " + $(".fax").val()
-                + "<br>Company: " + $(".contact-company").val()
-                + "<br>Street: " + $(".address").val()
-                + "<br>Address Line 2: " + $(".address2").val()
-                + "<br>City: " + $(".city").val()
-                + "<br>State: " + $(".state").val()
-                + "<br>ZIP: " + $(".zip").val()
-                + "<br>Country: " + $(".country").val()
-                + "<br>Application Requested: " + $("input[name=quote-choice]:checked").val()
-                + "<br>Additional info: " + $(".additional-info").val()
-                + "<br>Contact Method: " + $("input[name=contact-method]:checked").val()
-        })
-    })
-
     let abs = document.getElementsByClassName("home-photos")[0].offsetHeight
     let info = document.getElementsByClassName("home-slide-image")[0]
     info.style.height = abs = 1000 + "px"
