@@ -658,12 +658,14 @@ body {
 }
 
 .machines .content-box h1 {
+  margin-bottom: 5px;
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: sans-serif;
 }
 
 .machines .content-box h2 {
+  margin-bottom: 5px;
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: sans-serif;
@@ -722,7 +724,7 @@ body {
   font-size: 25px;
   font-family: sans-serif;
   list-style: none;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .machine-list ul li {
@@ -734,7 +736,7 @@ body {
 }
 
 #imageShown {
-  color: rgb(181, 9, 15);
+  color: rgb(255, 0, 0);
   filter: brightness(200%);
 }
 
@@ -966,6 +968,12 @@ body {
 .office-numbers p {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.office-numbers a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
 }
 
 .office-hours {

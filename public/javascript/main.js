@@ -135,6 +135,5 @@ $(document).ready(function(){
     let abs = document.getElementsByClassName("home-photos")[0].offsetHeight
     let info = document.getElementsByClassName("home-slide-image")[0]
     info.style.height = abs = 1000 + "px"
-    
 })
 
