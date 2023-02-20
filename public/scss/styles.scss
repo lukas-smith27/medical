@@ -787,20 +787,19 @@ body {
     width: 90%;
   }
   .machine-list {
-    margin-left: 0px;
-    justify-self: center;
-    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 0%;
   }
   .machine-list ul {
-    margin: 0 auto;
+    width: 100%;
+    text-align: left;
     margin-bottom: 2px;
-    text-align: center;
+    margin-left: 15%;
   }
   .machine-list ul li {
-    margin: 0 auto;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 3px;
+    text-align: left;
   }
   .machine-photos {
     text-align: center;
@@ -1132,12 +1131,13 @@ ul.bandj-family {
     margin: 0 10px;
   }
   .specialty img {
-    width: 150px;
-    height: 50px;
+    width: 175px;
+    height: 75px;
   } 
   .international img {
-    width: 150px;
-    height: 50px;
+    padding-top: 10px;
+    width: 175px;
+    height: 70px;
   }
 }
 
