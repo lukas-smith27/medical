@@ -27,6 +27,10 @@ body {
   width: 370px;
 }
 
+.company img:hover {
+  cursor: pointer;
+}
+
 .links ul {
   margin: 0;
   padding: 0;
