@@ -1,62 +1,6 @@
 $(document).ready(function(){
     $(window).load("../public/home.html")
 
-    history.pushState({page: 1}, "http://127.0.0.1:5500/public/home.html")
-    history.pushState({page: 2}, "http://127.0.0.1:5500/public/history.html")
-    history.pushState({page: 3}, "http://127.0.0.1:5500/public/team.html")
-    history.pushState({page: 4}, "http://127.0.0.1:5500/public/products.html")
-    history.pushState({page: 5}, "http://127.0.0.1:5500/public/machines.html")
-    history.pushState({page: 6}, "http://127.0.0.1:5500/public/careers.html")
-    history.pushState({page: 7}, "http://127.0.0.1:5500/public/quote.html")
-    history.pushState({page: 8}, "http://127.0.0.1:5500/public/contact.html")
-
-    $(".logo-home").click(function(){
-        url = "../public/home.html"
-        window.location.replace(url)
-    })
-
-    $(".homeTop").click(function(){
-        url = "../public/home.html"
-        window.location.replace(url)
-    })
-
-    $(".historyTop").click(function(){
-        url = "../public/history.html"
-        window.location.replace(url)
-        $(window).load(function() {
-        })
-    })
-
-    $(".teamTop").click(function(){
-        url = "../public/team.html"
-        window.location.replace(url)
-    })
-
-    $(".productsTop").click(function(){
-        url = "../public/products.html"
-        window.location.replace(url)
-    })
-
-    $(".machinesTop").click(function(){
-        url = "../public/machines.html"
-        window.location.replace(url)
-    })
-
-    $(".careersTop").click(function(){
-        url = "../public/careers.html"
-        window.location.replace(url)
-    })
-
-    $(".quoteTop").click(function(){
-        url = "../public/quote.html"
-        window.location.replace(url)
-    })
-
-    $(".contactTop").click(function(){
-        url = "../public/contact.html"
-        window.location.replace(url)
-    })
-
     $(".small-menu").click(function(){
         if (!$(".links").hasClass("active")) {
             $(".links").addClass("active")
@@ -66,20 +10,6 @@ $(document).ready(function(){
         }
     })
 
-    let $anchors = $(".links li")
-    let $anchors2 = $(".links li ul li a")
-    $(".aboutTop").click(function(){ return false })
-    $(".servicesTop").click(function(){ return false })
-
-    $($anchors).click(function(){
-        $(".links").removeClass("active")
-    })
-    $($anchors2).click(function(){
-        $(".links").removeClass("active")
-    })
-    $(".logo-home").click(function(){
-        $(".links").removeClass("active")
-    })
 
     //Open and close specific part modals
     $(".screw-modal").hide()
