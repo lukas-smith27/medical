@@ -646,6 +646,12 @@ body {
     top: 0%;
     height: 100%;
   }
+  .modal-head h2 {
+    font-size: 13px;
+  }
+  .close-button {
+    right: .1em;
+  }
   .wrapper img {
     margin: 0 auto;
     display: flex;
@@ -755,7 +761,7 @@ body {
   padding-left: 5%;
 }
 
-.machine-photos img {
+.machine-photos .machineImg {
   margin: 0 auto;
   padding-left: 50%;
   border-radius: 20px;
@@ -766,8 +772,8 @@ body {
   padding: 10px;
 }
 
-.machine-photos img:hover {
-  transform: scale(1.75);
+.machine-photos .machineImg:hover {
+  transform: scale(1.65);
   transition: .5s;
 }
 
