@@ -926,11 +926,12 @@ body {
 
 #emailButton {
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 27px;
   font-family: sans-serif;
   margin: 0 auto;
-  width: 8%;
-  height: 20%;
+  width: auto;
+  height: auto;
+  padding: 5px;
   border-radius: 5px;
   border: none;
   background-color: rgb(181, 9, 15);
@@ -969,7 +970,8 @@ body {
     width: 95%;
   }
   #emailButton {
-    width: 15%;
+    width: auto;
+    height: auto;
   }
 }
 
