@@ -911,7 +911,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-family: sans-serif;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .input-section-test ul li {
@@ -929,6 +929,17 @@ body {
   border-radius: 5px;
   border: none;
   background-color: rgb(181, 9, 15);
+}
+
+#emailButton a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+#emailButton:hover {
+  background-color: rgb(75, 75, 75);
+  cursor: pointer;
 }
 
 @media (max-width: 750px) {
