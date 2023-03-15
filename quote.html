@@ -46,28 +46,28 @@
 
             <div class="input-section">
                 <form accept-charset="UTF-8" action="https://www.formbackend.com/f/74dc50b2973a9ec4" method="POST">
-                    <input type="text" class="contact-name" placeholder="*Name"><br>
-                    <input type="text" class="contact-company" placeholder="*Company"><br>
-                    <input type="text" class="address" placeholder="*Street"><br>
-                    <input type="text" class="address2" placeholder="Address Line 2"><br>
+                    <input type="text" class="contact-name" name="Name" placeholder="*Name" required><br>
+                    <input type="text" class="contact-company" name="Company" placeholder="*Company" required><br>
+                    <input type="text" class="address" name="Address Line 1" placeholder="*Street" required><br>
+                    <input type="text" class="address2" name="Address Line 2" placeholder="Address Line 2"><br>
                     <div class="input-small">
-                        <input type="text" class="city" placeholder="*City">
-                        <input type="text" class="state" placeholder="*State">
-                        <input type="text" class="zip" placeholder="*Zip / Postal Code">
-                        <input type="text" class="country" placeholder="*Country">
+                        <input type="text" class="city" name="City" placeholder="*City" required>
+                        <input type="text" class="state" name="State" placeholder="*State" required>
+                        <input type="text" class="zip" name="Zip" placeholder="*Zip / Postal Code" required>
+                        <input type="text" class="country" name="Country" placeholder="*Country" required>
                     </div>
-                    <input type="text" class="phone" placeholder="*Phone"><br>
-                    <input type="text" class="email" placeholder="*Email"><br>
-                    <input type="text" class="website" placeholder="Company Website"><br>
-                    <input type="text" class="fax" placeholder="Fax Number"><br>
+                    <input type="text" class="phone" name="Phone" placeholder="*Phone" required><br>
+                    <input type="text" class="email" name="Email" placeholder="*Email" required><br>
+                    <input type="text" class="website" name="Website" placeholder="Company Website"><br>
+                    <input type="text" class="fax" name="Fax" placeholder="Fax Number"><br>
                     <h2 id="quote-instructions">What applications are you interested in?</h2>
-                    <input type="radio" id="cmdm-radio" name="quote-choice" value="Contract Medical Device Manufacturing"><label for="cmdm-radio">Contract Medical Device Manufacturing</label>
-                    <input type="radio" id="other-radio" name="quote-choice" value="Other"><label for="other-radio">Other</label><br>
+                    <input type="radio" id="cmdm-radio" name="quoteChoice" value="Contract Medical Device Manufacturing"><label for="cmdm-radio">Contract Medical Device Manufacturing</label>
+                    <input type="radio" id="other-radio" name="quoteChoice" value="Other"><label for="other-radio">Other</label><br>
                     <input type="text" class="additional-info" placeholder="Add any additional information here"><br>
                     <h2 id="quote-instructions">How would you like us to contact you?</h2>
-                    <input type="checkbox" id="phone-contact" name="contact-method" value="phone"><label for="phone-contact">Phone</label>
-                    <input type="checkbox" id="email-contact" name="" value="email"><label for="email-contact">Email</label><br><br>
-                    <input type="submit" class="form-submit" value="Submit"><br>
+                    <input type="checkbox" id="phone-contact" name="contactMethod" value="phone"><label for="phone-contact">Phone</label>
+                    <input type="checkbox" id="email-contact" name="contactMethod" value="email"><label for="email-contact">Email</label><br><br>
+                    <input type="submit" class="form-submit" name="Submit" value="Submit"><br>
                 </form>
             </div>
         </div>
