@@ -728,22 +728,22 @@ body {
 .machine-list {
   float: left;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  width: 48%;
-  margin: 0 10px;
+  width: 50%;
 }
 
 .machine-list ul {
-  margin-left: 30%;
+  margin-left: 15%;
   text-align: left;
-  font-size: 25px;
+  font-size: 30px;
   font-family: sans-serif;
   list-style: none;
   margin-bottom: 10px;
 }
 
 .machine-list ul li {
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 5px;
   color: rgb(255, 255, 255);
   font-family: sans-serif;
@@ -752,29 +752,115 @@ body {
 
 #imageShown {
   color: rgb(255, 0, 0);
+  font-size: 31px;
   filter: brightness(200%);
 }
 
-.machine-photos {
-  justify-content: center;
-  float: left;
-  width: 49%;
+.photos {
+  width: 50%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  padding-left: 5%;
+  flex-wrap: wrap;
 }
 
-.machine-photos .machineImg {
+.machine-photos {
+  position: relative;
   margin: 0 auto;
-  padding-left: 50%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.machine-photos-tall {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.machine-photos img {
+  position: relative;
+  margin: 0 auto;
   border-radius: 20px;
   text-align: center;
   display: block;
   flex-direction: column;
-  padding: 10px;
+  height: 350px;
+  width: 100%;
 }
 
+.tall {
+  position: relative;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+  flex-direction: column;
+  height: 600px;
+  width: 100%;
+}
+
+.machineDesc {
+  display: table;
+  height: 350px;
+  border-radius: 20px;
+  width: 100%;
+  background-color: rgba(50, 50, 50, .85);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.machineDescTall {
+  display: table;
+  height: 600px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(50, 50, 50, .85);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.machineDesc p {
+  text-align: center;
+  font-family: sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+.machineDescTall p {
+  text-align: center;
+  font-family: sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+.machine-photos:hover .machineDesc {
+  visibility: visible;
+  transition: .3s;
+  opacity: 1;
+}
+
+.machine-photos-tall:hover .machineDescTall {
+  visibility: visible;
+  transition: .3s;
+  opacity: 1;
+}
 
 .list-photo-container {
   width: 100%;
@@ -813,6 +899,9 @@ body {
   .machine-list ul li {
     text-align: left;
   }
+  .photos {
+    width: 85%;
+  }
   .machine-photos {
     text-align: center;
     justify-content: center;
@@ -822,6 +911,15 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
+  }
+  .tall {
+    height: 400px;
+  }
+  .machineDescTall {
+    height: 400px;
+  }
+  .machineDescTall p {
+    font-size: 1.25em;
   }
 }
 /*/////////////////// Contact Page /////////////////*/
