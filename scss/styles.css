@@ -858,6 +858,7 @@ body {
 
 .input-section input[type=radio] {
   transform: scale(2);
+  display: inline-flexbox;
 }
 
 .input-section input[type=checkbox] {
@@ -895,50 +896,6 @@ body {
   border: none;
   border-radius: 10px;
   font-family: sans-serif;
-}
-
-.input-section-test {
-  align-items: center;
-  margin: 0 auto;
-  text-align: center;
-  width: 50%;
-  padding-bottom: 30px;
-}
-
-.input-section-test ul {
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  font-family: sans-serif;
-  margin-left: 30px;
-}
-
-.input-section-test ul li {
-  list-style: none;
-  text-align: left;
-}
-
-#emailButton {
-  color: rgb(255, 255, 255);
-  font-size: 27px;
-  font-family: sans-serif;
-  margin: 0 auto;
-  width: auto;
-  height: auto;
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-  background-color: rgb(181, 9, 15);
-}
-
-#emailButton a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-family: sans-serif;
-}
-
-#emailButton:hover {
-  background-color: rgb(75, 75, 75);
-  cursor: pointer;
 }
 
 @media (max-width: 750px) {
