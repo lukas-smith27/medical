@@ -971,6 +971,11 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.input-section textarea {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
 .additional-info {
   width: 80%;
   margin: 10px 0;
