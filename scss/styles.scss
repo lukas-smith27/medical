@@ -956,7 +956,7 @@ body {
 }
 
 .input-small input[type=text] {
-  width: 38%;
+  width: 38.75%;
   margin: 10px 20px;
 }
 
@@ -974,6 +974,11 @@ body {
   font-size: 25px;
   font-family: sans-serif;
   color: rgb(255, 255, 255);
+}
+
+.input-section textarea {
+  font-size: 25px;
+  font-family: sans-serif;
 }
 
 .additional-info {
